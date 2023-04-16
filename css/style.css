@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 main{
-    margin: 20px 0;
+    
 }
 .jumbotron-header{
-    background-color: aqua;
+    background-color: rgb(55, 74, 160);
+    padding: 20px;
     
 }
 .jumbotron{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+   
+    
 }
 .jumbotron-lightgrey{
     background-color: lightgray;
@@ -22,6 +25,7 @@ main{
 .container{
     width: 50%;
     margin: 0 auto;
+    
     /* background-color: rgb(255, 38, 0); */
     
 }
@@ -29,24 +33,27 @@ main{
     width: 50%;
     margin: 0 auto;
 }
+
 .row{
     display: flex;
 }
+.logo{
+    align-items: baseline;
+}
 .col-20{
+    color: white;
     width: 20%;
-    background-color: yellowgreen;
+    padding: 10px;
+   
 }
 .col-60-header{
+    color: white;
     width: 60%;
-    background-color: yellowgreen;
     text-align: center;
 }
 .col-100{
-    width: 100%;
-    margin: 20px;
-    height: 250px;
-    background-color: pink;
-}
+    
+}        
 .col-60{
     width:60%;
     margin-top: 20px;
@@ -89,4 +96,45 @@ main{
 }
 #bottone{
     background-color: pink;
+}
+#ifo-header{
+    padding: 20px;
+    font-size: 20px;
+    
+}
+#immagine-logo{
+    position: relative;
+    top: 12px;
+  
+}
+#accedi-header{
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: blue;
+    position: relative;
+    left: 80px;
+
+}
+.sezione1{
+    width: 45%;
+    position: relative;
+    left: 100px;
+    background-image: url(../img/jumbo.png);
+
+}
+
+h1{
+    text-align: center;
+    padding:  50px;
+    font-size: 40px;
+    color: white;
+    
+ 
+}
+#testo-primo{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
